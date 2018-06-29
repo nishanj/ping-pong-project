@@ -1,6 +1,14 @@
-<div>
-<label for="Ping">Ping-Pong-Play</label>
-<input id="Ping-Pong" class="form-control" type="text">
-</div>
 
-<button type="submit" class="btn">submit</button>
+//User Interface Logic
+$(document).ready(function(){
+  $("#userInput").submit(function(event){
+    $("#output").empty();
+    var countTo = parseInt($("input#countTo").val());
+    var output = countUp(countTo);
+
+    output.forEach(function(item){
+      $("#output").append('<li>' + item + '</li>');
+    });
+    event.preventDefault();
+  });
+});
