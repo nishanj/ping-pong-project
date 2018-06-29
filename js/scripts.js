@@ -2,6 +2,7 @@
 //User Interface Logic
 $(document).ready(function(){
   $("#userInput").submit(function(event){
+    event.preventDefault();
     $("#output").empty();
     var countTo = parseInt($("input#countTo").val());
     var output = countUp(countTo);
@@ -9,7 +10,7 @@ $(document).ready(function(){
     output.forEach(function(item){
       $("#output").append('<li>' + item + '</li>');
     });
-    event.preventDefault();
+
   });
 });
 
