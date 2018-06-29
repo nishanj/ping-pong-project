@@ -14,6 +14,10 @@ body{
     background-image: linear-gradient(lightgreen);
 
 }
+button{
+  background-color: blue;
+  color: white;
+}
 .col-md-8 {
     width: 66.66666667%;
     background-color: #dee2de;
