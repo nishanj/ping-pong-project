@@ -1,7 +1,8 @@
 //Business Logic
-var myVal = function(myVal){
+var countUp = function(countTo){
   var result = [];
-  for(var i = 1; i <= myVal; i++){
+  // looping
+  for(var i = 1; i <= countTo; i++){
       var index = result.indexOf(i);
       if(i % 15 === 0) {
         result.splice(index, 0);
@@ -25,8 +26,8 @@ $(document).ready(function(){
   $("#userInput").submit(function(event){
     event.preventDefault();
     $("#output").empty();
-    var myVal = parseInt($("input#myVal").val());
-    var output = myVal(myVal);
+    var countTo = parseInt($("input#countTo").val());
+    var output = countUp(countTo);
 
     output.forEach(function(item){
       $("#output").append('<li>' + item + '</li>');
