@@ -10,7 +10,7 @@
 
 #Spec/specification:
 # 1.0 Developing index.html, form and creating jquery.js and bootstrap.js plus readme.md
-# 2.0 UI Logic
+# 2.0 creating an event, and two vars (input and output) should be divisible by 3, 5, 15 and use of loop for to init, condition and express
 # 3.0 Business Logic
 
 #Ping Pong Play Game is developed as web application that takes a number from the a user(s) and returns a number or a word in others it ranges from one to the given number with following exception and should be divisible to three, five and fifteen and returning numbers and ping, pong as well as ping-pong
