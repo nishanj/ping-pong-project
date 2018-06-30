@@ -1,9 +1,10 @@
 //Business Logic
 var countUp = function(countTo){
   var result = [];
-  // looping
+  // looping for
   for(var i = 1; i <= countTo; i++){
       var index = result.indexOf(i);
+      // use of module
       if(i % 15 === 0) {
         result.splice(index, 0);
         result.push('pingpong');
