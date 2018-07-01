@@ -14,6 +14,10 @@ body{
     background-image: linear-gradient(lightgreen);
 
 }
+#text-align{
+  text-align: left;
+  color: black;
+}
 button{
   background-color: blue;
   color: white;
