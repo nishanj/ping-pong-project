@@ -1,5 +1,8 @@
 body{
-  background-color: gold;
+  background-image: url(../images/images.jpeg);
+  background-repeat: repeat-y;
+  background-color: #FAF0C5;
+  animation-name: mymove;
 }
 .container-fluid  {
     padding-right: 15px;
@@ -10,9 +13,18 @@ body{
     margin-bottom: 80px;
     font-family: sans-serif;
     text-align: center;
-    color: purple;
+    color: ##191970;
+    font-family: handwritting;
+
+
     background-image: linear-gradient(lightgreen);
 
+}
+h1, .h1 {
+    font-size: 36px;
+    animation-name: mymove;
+    animation-duration: 5s;
+    text-transform: uppercase;
 }
 #text-align{
   text-align: left;
@@ -30,7 +42,7 @@ button{
 .col-md-4 {
     width: 33.33333333%;
     background-color: lightgreen;
-    padding-bottom: 86px;
+    padding-bottom: 84px;
 }
 .container{
   margin-top: 10px;
